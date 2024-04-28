@@ -27,7 +27,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://killz.biz.id/menu/menu.zip
+    wget https://killz.biz/menu/menu.zip
     wget -q -O /usr/bin/enc "${REPO}encrypt/epro" ; chmod +x /usr/bin/enc
     unzip menu.zip
     chmod +x menu/*
