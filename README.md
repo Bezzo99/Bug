@@ -6,7 +6,7 @@
 📞  wa.me//6285718230420       
 ➥  t.me/novanthekillz
 ### Format Vless WS TLS
-
+- name: Vless-Gas2-WS TLS
 - name: Vless-Gas2-WS TLS
   server: free-akun.novan.social
   port: 443
@@ -23,7 +23,7 @@
       Host: free-akun.novan.social
 
 ### Format Vless WS Non TLS
-
+- name: Vless-Gas2-WS (CDN) Non TLS
 - name: Vless-Gas2-WS (CDN) Non TLS
   server: free-akun.novan.social
   port: 80
@@ -41,7 +41,7 @@
   udp: true
 
 ### Format Vless gRPC (SNI)
-
+- name: Vless-Gas2-gRPC (SNI)
 - name: Vless-Gas2-gRPC (SNI)
   server: free-akun.novan.social
   port: 443
@@ -57,9 +57,9 @@
     grpc-service-name: vless-grpc
 
 ### Link Akun Vless 
-Link TLS      : 
+### Link TLS 
 vless://b8a57048-c645-48fc-b59e-f722b71b5816@free-akun.novan.social:443?path=/vless&security=tls&encryption=none&type=ws#Gas2
-### Link none TLS : 
+### Link none TLS
 vless://b8a57048-c645-48fc-b59e-f722b71b5816@free-akun.novan.social:80?path=/vless&encryption=none&type=ws#Gas2
-### Link GRPC     : 
+### Link GRPC
 vless://b8a57048-c645-48fc-b59e-f722b71b5816@free-akun.novan.social:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=vless-grpc&sni=free-akun.novan.social#Gas2
